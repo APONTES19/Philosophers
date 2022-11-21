@@ -1,25 +1,27 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   philo.c                                            :+:      :+:    :+:   */
+/*   includes.h                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: lucasmar < lucasmar@student.42sp.org.br    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/11/09 19:13:09 by lucasmar          #+#    #+#             */
-/*   Updated: 2022/11/21 09:58:45 by lucasmar         ###   ########.fr       */
+/*   Created: 2022/11/21 09:49:08 by lucasmar          #+#    #+#             */
+/*   Updated: 2022/11/21 09:52:16 by lucasmar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/philo.h"
+#ifndef INCLUDES_H
+#define INCLUDES_H
 
-int	main(int argc, char **argv)
-{
-	t_ph	ph;
+#include "philo.h"
+# include "structs.h"
 
-	//inicio checar os argumentos
-	if (ft_check_arguments(argc, argv))
-		printf("error\n");
-	ph.a = 10;
-	printf("Testando make ok valor de a : %d\n", ph.a);
-	return (0);
-}
+# include <stdio.h>
+# include <unistd.h>
+# include <sys/time.h>
+# include <pthread.h>
+# include <stdlib.h>
+
+#endif
+
+

@@ -6,10 +6,9 @@
 #    By: lucasmar < lucasmar@student.42sp.org.br    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/11/09 19:01:44 by lucasmar          #+#    #+#              #
-#    Updated: 2022/11/09 19:36:33 by lucasmar         ###   ########.fr        #
+#    Updated: 2022/11/21 11:00:47 by lucasmar         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
-
 
 # libs *********************************************************************** #
 HEADERS_PATH=	./app/includes/
@@ -19,7 +18,9 @@ NAME=philo
 SRC_PATH=./app/src
 OBJ_PATH=./app/obj
 
-SRC_FILES=philo.c
+SRC_FILES=	philo.c\
+			check_arguments.c\
+			error.c
 
 SRC=$(addprefix $(SRC_PATH)/, $(SRC_FILES))
 OBJ=$(SRC:$(SRC_PATH)/%.c=$(OBJ_PATH)/%.o)
@@ -45,8 +46,8 @@ $(NAME): $(OBJ)
 		@echo "\033[0m"
 		@echo "\033[0;33m	Welcome to Philosophers by lucasmar 42sp \033[0m"
 		@echo "\033[0;39m"
-		@echo "	run ./philo 2 -> [number of Philosophers] 10 [time_to_die] 50 [time_to_eat] 30 [time_to_sleep] 1 [optional - number_of_times_each_philosopher_must_eat] !"
-		@echo "	example: ./philo 2 10 50 30 "
+		@echo "	run ./philo \n\n\t 1.( 2 -> [number of Philosophers] )\n\t 2.( 10 ->[time_to_die] )\n\t 3.( 50 ->[time_to_eat] )\n\t 4.( 30 -> [time_to_sleep] )\n\t *5.( 1 ->[optional - number_of_times_each_philosopher_must_eat] )"
+		@echo "\n	example: ./philo 2 10 50 30 "
 		@echo "\033[0m"
 clean:
 		@$(RM_DIR) $(OBJ_PATH)
