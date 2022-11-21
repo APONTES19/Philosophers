@@ -1,25 +1,40 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   structs.h                                          :+:      :+:    :+:   */
+/*   ft_long_atoi.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: lucasmar < lucasmar@student.42sp.org.br    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/11/21 09:34:29 by lucasmar          #+#    #+#             */
-/*   Updated: 2022/11/21 11:31:24 by lucasmar         ###   ########.fr       */
+/*   Created: 2022/11/21 11:14:06 by lucasmar          #+#    #+#             */
+/*   Updated: 2022/11/21 11:49:40 by lucasmar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef STRUCTS_H
-# define STRUCT_H
+static int	ft_space(char c);
 
-typedef struct s_philo
+long	ft_long_atoi(const char *str)
 {
-	int	num_philo;
-	int	time_eat;
-	int	time_sleep;
-	int	time_die;
-	int	time_trink;
-}	t_ph;
+	long	r;
+	long	c;
 
-#endif
+	c = 1;
+	r = 0;
+	while (ft_space(*str))
+		str++;
+	if (*str == '-' || *str == '+')
+	{
+		if (*str == '-')
+			c = -1;
+		str++;
+	}
+	while (*str >= '0' && *str <= '9')
+		r = (r * 10) + ((*str++) - '0');
+	return (r * c);
+}
+
+static int	ft_space(char c)
+{
+	if (c == 32 || (c >= 9 && c <= 13))
+		return (1);
+	return (0);
+}

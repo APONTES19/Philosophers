@@ -6,7 +6,7 @@
 #    By: lucasmar < lucasmar@student.42sp.org.br    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/11/09 19:01:44 by lucasmar          #+#    #+#              #
-#    Updated: 2022/11/21 11:00:47 by lucasmar         ###   ########.fr        #
+#    Updated: 2022/11/21 11:14:53 by lucasmar         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -20,7 +20,8 @@ OBJ_PATH=./app/obj
 
 SRC_FILES=	philo.c\
 			check_arguments.c\
-			error.c
+			error.c\
+			ft_long_atoi.c
 
 SRC=$(addprefix $(SRC_PATH)/, $(SRC_FILES))
 OBJ=$(SRC:$(SRC_PATH)/%.c=$(OBJ_PATH)/%.o)

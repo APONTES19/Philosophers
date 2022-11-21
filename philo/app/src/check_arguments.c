@@ -6,7 +6,7 @@
 /*   By: lucasmar < lucasmar@student.42sp.org.br    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/21 09:42:34 by lucasmar          #+#    #+#             */
-/*   Updated: 2022/11/21 10:27:23 by lucasmar         ###   ########.fr       */
+/*   Updated: 2022/11/21 12:05:22 by lucasmar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,16 +14,48 @@
 
 int	ft_check_arguments(int argc, char **argv)
 {
-	(void)argv;
 	if (argc < 5)
-		printf("\033[0;31m"
-			"\nErro 0 - "
-			"please insert at least 4 arguments!\n\n"
-			"\t1.(number of philosophers)\n"
-			"\t2.(time to die)\n"
-			"\t3.(time to eat)\n"
-			"\t4.(time to sleep)\n"
-			"\t*5.(optional, number of times for each philosopher to eat)\033[0m\n"
-			"\n\tex : ./philo 2 200 600 1000 6 \n\n");
+	{
+		ft_error(0);
+		return(1);
+	}
+	if (ft_convert_argument(argv) == 1)
+		return(1);
+	return (0);
+}
+
+int	ft_convert_argument(char **argv)
+{
+	int	i;
+
+	i = 1;
+	while(argv[i])
+	{
+		if (ft_ponter_isdigit(argv[i]) == 1)
+		{
+			ft_error(2);
+			return(1);
+		}
+		if (ft_long_atoi(argv[i]) == 0)
+		{
+			ft_error(1);
+			return(1);
+		}
+		i++;
+	}
+	return (0);
+}
+
+int	ft_ponter_isdigit(char *c)
+{
+	int	i;
+
+	i = 0;
+	while (c[i])
+	{
+		if (c[i] < 48 || c[i] > 57)
+			return (1);
+		i++;
+	}
 	return (0);
 }
