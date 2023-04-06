@@ -6,7 +6,7 @@
 /*   By: lucasmar < lucasmar@student.42sp.org.br    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/10 00:05:41 by lucasmar          #+#    #+#             */
-/*   Updated: 2022/12/10 20:23:51 by lucasmar         ###   ########.fr       */
+/*   Updated: 2023/04/06 15:42:04 by lucasmar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ void	*ft_dinner(void *philo)
 
 	ph = (t_ph *) philo;
 	if (ph->id % 2 == 0)
-		usleep(100);
+		usleep(80);
 	while (ph->data->death == 0)
 	{
 		ft_action_eat(ph);

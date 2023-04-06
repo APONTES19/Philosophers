@@ -1,0 +1,35 @@
+0 philosopher 1 has taken a fork
+0 philosopher 1 has taken a fork
+0 philosopher 1 is eating
+0 philosopher 3 has taken a fork
+0 philosopher 3 has taken a fork
+0 philosopher 3 is eating
+200 philosopher 3 is sleeping
+200 philosopher 1 is sleeping
+200 philosopher 4 has taken a fork
+200 philosopher 4 has taken a fork
+200 philosopher 4 is eating
+200 philosopher 2 has taken a fork
+200 philosopher 2 has taken a fork
+200 philosopher 2 is eating
+400 philosopher 3 is thinking
+400 philosopher 1 is thinking
+400 philosopher 4 is sleeping
+400 philosopher 1 has taken a fork
+400 philosopher 2 is sleeping
+400 philosopher 3 has taken a fork
+400 philosopher 3 has taken a fork
+400 philosopher 3 is eating
+400 philosopher 1 has taken a fork
+400 philosopher 1 is eating
+600 philosopher 4 is thinking
+600 philosopher 2 is thinking
+600 philosopher 3 is sleeping
+600 philosopher 1 is sleeping
+600 philosopher 2 has taken a fork
+600 philosopher 2 has taken a fork
+600 philosopher 2 is eating
+600 philosopher 4 has taken a fork
+600 philosopher 4 has taken a fork
+600 philosopher 4 is eating
+800 philosopher 3 died

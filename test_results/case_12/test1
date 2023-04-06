@@ -1,0 +1,132 @@
+0 philosopher 1 has taken a fork
+0 philosopher 1 has taken a fork
+0 philosopher 1 is eating
+0 philosopher 3 has taken a fork
+0 philosopher 3 has taken a fork
+0 philosopher 3 is eating
+200 philosopher 3 is sleeping
+200 philosopher 2 has taken a fork
+200 philosopher 2 has taken a fork
+200 philosopher 2 is eating
+200 philosopher 1 is sleeping
+200 philosopher 4 has taken a fork
+200 philosopher 4 has taken a fork
+200 philosopher 4 is eating
+400 philosopher 1 is thinking
+400 philosopher 1 has taken a fork
+400 philosopher 1 has taken a fork
+400 philosopher 1 is eating
+400 philosopher 3 is thinking
+400 philosopher 3 has taken a fork
+400 philosopher 3 has taken a fork
+400 philosopher 3 is eating
+400 philosopher 2 is sleeping
+400 philosopher 4 is sleeping
+600 philosopher 1 is sleeping
+600 philosopher 4 is thinking
+600 philosopher 4 has taken a fork
+600 philosopher 2 is thinking
+600 philosopher 2 has taken a fork
+600 philosopher 4 has taken a fork
+600 philosopher 4 is eating
+600 philosopher 3 is sleeping
+600 philosopher 2 has taken a fork
+600 philosopher 2 is eating
+800 philosopher 1 is thinking
+800 philosopher 3 is thinking
+800 philosopher 4 is sleeping
+800 philosopher 2 is sleeping
+800 philosopher 1 has taken a fork
+800 philosopher 1 has taken a fork
+800 philosopher 1 is eating
+800 philosopher 3 has taken a fork
+800 philosopher 3 has taken a fork
+800 philosopher 3 is eating
+1000 philosopher 4 is thinking
+1000 philosopher 2 is thinking
+1000 philosopher 3 is sleeping
+1001 philosopher 2 has taken a fork
+1001 philosopher 2 has taken a fork
+1001 philosopher 2 is eating
+1001 philosopher 1 is sleeping
+1001 philosopher 4 has taken a fork
+1001 philosopher 4 has taken a fork
+1001 philosopher 4 is eating
+1201 philosopher 3 is thinking
+1201 philosopher 1 is thinking
+1201 philosopher 4 is sleeping
+1201 philosopher 2 is sleeping
+1201 philosopher 3 has taken a fork
+1201 philosopher 3 has taken a fork
+1201 philosopher 3 is eating
+1201 philosopher 1 has taken a fork
+1201 philosopher 1 has taken a fork
+1201 philosopher 1 is eating
+1401 philosopher 4 is thinking
+1401 philosopher 3 is sleeping
+1401 philosopher 2 is thinking
+1401 philosopher 1 is sleeping
+1401 philosopher 2 has taken a fork
+1401 philosopher 2 has taken a fork
+1401 philosopher 2 is eating
+1401 philosopher 4 has taken a fork
+1401 philosopher 4 has taken a fork
+1401 philosopher 4 is eating
+1601 philosopher 3 is thinking
+1601 philosopher 1 is thinking
+1601 philosopher 2 is sleeping
+1601 philosopher 3 has taken a fork
+1601 philosopher 3 has taken a fork
+1601 philosopher 3 is eating
+1601 philosopher 4 is sleeping
+1601 philosopher 1 has taken a fork
+1601 philosopher 1 has taken a fork
+1601 philosopher 1 is eating
+1801 philosopher 2 is thinking
+1801 philosopher 2 has taken a fork
+1801 philosopher 1 is sleeping
+1801 philosopher 3 is sleeping
+1801 philosopher 4 is thinking
+1801 philosopher 2 has taken a fork
+1801 philosopher 2 is eating
+1801 philosopher 4 has taken a fork
+1801 philosopher 4 has taken a fork
+1801 philosopher 4 is eating
+2001 philosopher 1 is thinking
+2001 philosopher 2 is sleeping
+2001 philosopher 3 is thinking
+2001 philosopher 3 has taken a fork
+2001 philosopher 4 is sleeping
+2001 philosopher 3 has taken a fork
+2001 philosopher 1 has taken a fork
+2001 philosopher 1 has taken a fork
+2001 philosopher 1 is eating
+2002 philosopher 3 is eating
+2201 philosopher 2 is thinking
+2202 philosopher 4 is thinking
+2202 philosopher 2 has taken a fork
+2202 philosopher 1 is sleeping
+2202 philosopher 4 has taken a fork
+2202 philosopher 4 has taken a fork
+2202 philosopher 4 is eating
+2202 philosopher 3 is sleeping
+2202 philosopher 2 has taken a fork
+2202 philosopher 2 is eating
+2402 philosopher 1 is thinking
+2402 philosopher 3 is thinking
+2402 philosopher 2 is sleeping
+2402 philosopher 4 is sleeping
+2402 philosopher 1 has taken a fork
+2402 philosopher 1 has taken a fork
+2402 philosopher 1 is eating
+2402 philosopher 3 has taken a fork
+2402 philosopher 3 has taken a fork
+2402 philosopher 3 is eating
+2602 philosopher 4 is thinking
+2602 philosopher 4 has taken a fork
+2602 philosopher 2 is thinking
+2602 philosopher 2 has taken a fork
+2602 philosopher 2 has taken a fork
+2602 philosopher 2 is eating
+2602 philosopher 4 has taken a fork
+2602 philosopher 4 is eating
