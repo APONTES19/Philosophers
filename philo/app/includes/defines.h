@@ -6,13 +6,13 @@
 /*   By: lucasmar < lucasmar@student.42sp.org.br    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/21 15:59:09 by lucasmar          #+#    #+#             */
-/*   Updated: 2022/11/21 16:09:20 by lucasmar         ###   ########.fr       */
+/*   Updated: 2022/12/10 17:43:55 by lucasmar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef DEFINES_H
 # define DEFINES_H
 
-# define MILLESECONS 1000
-#endif
+# define MICROSECONDS 1000
 
+#endif
